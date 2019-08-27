@@ -12,7 +12,7 @@ const spy = sinon.spy(console, 'log');
 
 describe('<Keypad />', () => {
   const wrapper = shallow(<Keypad />);
-
+  console.log("test")
   afterEach(function () {
     spy.reset();
   });
